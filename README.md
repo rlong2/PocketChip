@@ -1,6 +1,6 @@
 # PocketChip Random Album Picker
 
-This repository details how to build a python app on a Pocket C.H.I.P. that ingests a CSV of vinyl records and displays them at random. The keyboard can be used to pick songs out of a certain genre.
+Tired of picking items at random? This repository details how to build a python app on a Pocket C.H.I.P. that ingests a CSV of vinyl records and displays them at random for you to spin at your leisure. The keyboard can be used to pick songs out of a certain genre.
 
 ![Pocket CHIP handheld device](https://cdn.shopify.com/s/files/1/0046/2612/0774/files/akrales_160719_1147_A_0139_large.jpg?v=1537278482)
 ## Requirements
