@@ -8,11 +8,12 @@ This repository details how to build a python app on a Pocket C.H.I.P. that inge
 - A CSV file of records. Here is a snippet of how I have my fields arranged in Google Sheets, which was then exported to a CSV:
 	![](SpreadsheetSnippet.png)
 
+The csv included in this repo is not a complete version. It was generated with `shuf -n 10 vinyl.csv `
 
 ## Files
 - /`usr/share/pocket-home/config.json` - contains shell commands, paths to icons, the python app, and the csv.
-- `/home/chip/random_album.py`
-- `/home/chip/vinyl.csv`
+- `/home/chip/random_album.py` - the python program. Note that the python file must be written in `python2`. The CHIP does not support `python3`.
+- `/home/chip/vinyl.csv` - the list of vinyl records. 
 
 ## End Result
 Pocket C.H.I.P. app selection:

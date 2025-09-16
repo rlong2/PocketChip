@@ -1,0 +1,68 @@
+```
+{
+  "defaultPage" : "Apps",
+  "pages": [
+    {
+      "name": "Apps",
+      "items": [
+        {
+          "name": "Terminal",
+          "icon": "appIcons/terminal.png",
+          "shell": "vala-terminal -fs 8 -g 20 20"
+        },
+        {
+          "name": "View Records",
+          "icon": "appIcons/musicsequencer.png",
+          "shell": "leafpad /home/chip/vinyl.csv"
+        },
+        {
+          "name": "Random Album",
+          "icon": "appIcons/pico8.png",
+          "shell": "vala-terminal -fs 12 -e python2 /home/chip/random_album.py"
+         },
+        {
+          "name": "Browse Files",
+          "icon": "appIcons/filebrowser.png",
+          "shell": "pcmanfm"
+        },
+      ],
+      "cornerButtons": [
+        {
+          "location": "TopLeft",
+          "name": "Battery",
+          "icon": "battery_0.png"
+        },
+        {
+          "location": "TopRight",
+          "name": "WiFi",
+          "icon": "wifiOff.png"
+        },
+
+        {
+          "location": "BottomLeft",
+          "name": "Power",
+          "icon": "powerIcon.png"
+        },
+        {
+          "location": "BottomRight",
+          "name": "Settings",
+          "icon": "settingsIcon.png"
+        }
+      ]
+    },
+    {
+      "name": "Settings"
+    },
+    {
+      "name": "Power"
+    },
+    {
+      "name": "WiFi"
+    },
+    {
+      "name": "Battery"
+    }
+  ]
+}
+
+```
