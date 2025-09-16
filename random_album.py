@@ -1,4 +1,3 @@
-```
 import os
 import random
 import re
@@ -115,4 +114,3 @@ file_path = '/home/chip/VinylProject/vinyl.csv'
 
 # Run the program
 display_random_line(file_path)
-```
